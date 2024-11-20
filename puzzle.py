@@ -120,7 +120,7 @@ def visualize_and_save_solution(solution, num_rows, num_cols, original_shape, ge
     plt.close()
 
 # Run the algorithm
-best_solution = genetic_algorithm(image_array, 4, 4, 2000, 5, 20, 0.3, 1500, 0.9)
+best_solution = genetic_algorithm(image_array, 4, 4, 2000, 6, 20, 0.3, 1500, 0.9)
 
 # Original image size
 original_shape = image_array.shape
